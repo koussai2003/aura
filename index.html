@@ -12,6 +12,16 @@
 		<title>aura</title>
 		<!-- styles-->
 		<link rel="stylesheet" href="css/styles.min.css"/>
+		<style>
+			.promo-slider__item {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.slide-hidden {
+  opacity: 0;
+}
+		</style>
 		<!-- web-font loader-->
 		<script>
 			WebFontConfig = {
@@ -37,6 +47,28 @@
 			}
 
 			font()
+			var sliderItems = document.querySelectorAll('.promo-slider__item');
+var currentSlide = 0;
+
+function hideCurrentSlide() {
+  sliderItems[currentSlide].classList.add('slide-hidden');
+}
+
+function showNextSlide() {
+  hideCurrentSlide();
+
+  currentSlide++;
+  if (currentSlide >= sliderItems.length) {
+    currentSlide = 0;
+  }
+
+  sliderItems[currentSlide].classList.remove('slide-hidden');
+
+  setTimeout(showNextSlide, 500);
+}
+
+// Start the slideshow
+showNextSlide();
 		</script>
 	</head>
 	<body>
@@ -63,7 +95,7 @@
 							
 						</div>
 						
-						<div class="menu-dropdown__block top-50"><span class="block__title">Email</span><a class="screen__link" href="#	">Contact.auratransit.tn</a></div>
+						<div class="menu-dropdown__block top-50"><span class="block__title">Email</span><a class="screen__link" href="#	">Contact@auratransit.tn</a></div>
 						<div class="menu-dropdown__block top-20"><span class="block__title">Telephones</span><a class="screen__link" href="#">(+216)70287140</a><a class="screen__link" href="#">(+216)58150918</a></div>
 						
 					</div>
@@ -189,7 +221,7 @@
 									
 									<!-- sub menu end-->
 								</li>
-								<li class="main-menu__item main-menu__item--has-0"><a class="main-menu__link" href="servicjud.html"><span>juridique</span></a>
+								<li class="main-menu__item main-menu__item--has-0"><a class="main-menu__link" href="servicjud.html"><span>services juridique</span></a>
 									<!-- sub menu start-->
 									
 									<!-- sub menu end-->
@@ -232,10 +264,10 @@
 										<div class="row"></div>
 										<div class="col-lg-9 col-xl-8">
 											<div class="promo-slider__wrapper-1"><span class="promo-slider__overlay">Aura</span>
-												<h2 class="promo-slider__title">Dédouanement facile et rapide <br/>avec Aura pour votre entreprise</h2>
+												<h2 class="promo-slider__title">Aura la seule qui vous ira</h2>
 											</div>
 											<div class="promo-slider__wrapper-2">
-												<p class="promo-slider__subtitle">Simplifiez votre processus de dédouanement avec Aura, votre partenaire de confiance pour le commerce international. Nous offrons des solutions de dédouanement rapides et efficaces pour les importateurs et les exportateurs.</p>
+												<p class="promo-slider__subtitle">Aura est votre partenaire privilégié pour une assistance complète à l'import et à l'export. Nous offrons des solutions de transport efficaces et rapides pour répondre à tous vos besoins, ainsi qu'une assistance personnalisée pour toutes les formalités douanières et réglementaires.</p>
 											</div>
 											<div class="promo-slider__wrapper-3"><a class="button button--promo" href="contacts.html"><span>Contact nos</span> 
 												<svg class="icon">
@@ -258,11 +290,10 @@
 										<div class="row">
 											<div class="col-12 text-center">
 												<div class="promo-slider__wrapper-1"><span class="promo-slider__overlay position-center">AURA</span>
-													<h2 class="promo-slider__title">Obtenez une assistance complète
-														pour vos importations et exportations avec AURA</h2>
+													<h2 class="promo-slider__title">Dédouanement facile et rapide <br/>avec Aura pour votre entreprise</h2>
 												</div>
 												<div class="promo-slider__wrapper-2">
-													<p class="promo-slider__subtitle">RITRAD est votre partenaire privilégié pour une assistance complète à l'import et à l'export. Nous offrons des solutions de transport efficaces et rapides pour répondre à tous vos besoins, ainsi qu'une assistance personnalisée pour toutes les formalités douanières et réglementaires.</p>
+													<p class="promo-slider__subtitle">Simplifiez votre processus de dédouanement avec Aura, votre partenaire de confiance pour le commerce international. Nous offrons des solutions de dédouanement rapides et efficaces pour les importateurs et les exportateurs.</p>
 												</div>
 												<div class="promo-slider__wrapper-3"><a class="button button--promo" href="contacts.html"><span>Contact nos</span> 
 													<svg class="icon">
@@ -497,6 +528,7 @@
 											agréé reçoit vos questions et répond avec fiabilité et vitesse via téléphone, email et en présentiel/ un service juridique spécialisé dans la matière douanière
 											vous accompagne).
 											</p>
+										<div class="row">
 											<div class="profile">
 												<style>
 													.profile {
@@ -506,7 +538,7 @@
 												
 													.profile img {
 														position: relative;
-														margin: 0 auto;
+														
 														margin-top: 10%;
 														border-radius: 10%;
   width: 300px;
@@ -550,6 +582,113 @@ overflow: hidden;
 												<p>ATTORNEY  AT LAW</p>
 												
 											  </div>
+											  <div class="profile">
+												<style>
+													.profile {
+													  text-align: center;
+													  
+													}
+												
+													.profile img {
+														position: relative;
+														
+														margin-top: 10%;
+														border-radius: 10%;
+  width: 300px;
+  height: 500px;
+overflow: hidden;
+													  
+													}
+												
+													.profile h2 {
+													  font-size: 24px;
+													  margin-bottom: 5px;
+													}
+												
+													.profile p {
+													  font-size: 16px;
+													  color: #888;
+													  margin-bottom: 20px;
+													}
+												
+													.profile ul {
+													  list-style: none;
+													  padding: 0;
+													}
+												
+													.profile ul li {
+													  display: inline-block;
+													  margin-right: 10px;
+													}
+												
+													.profile ul li a i {
+													  font-size: 24px;
+													  color: #888;
+													}
+												
+													.profile ul li a i:hover {
+													  color: #000;
+													}
+												  </style>
+												<img src="img/owner.jpg" alt="Profile Photo">
+												<h2> Mouna Kbaier </h2>
+												<p>ATTORNEY  AT LAW</p>
+												
+											  </div>
+											  <div class="profile">
+												<style>
+													.profile {
+													  text-align: center;
+													  
+													}
+												
+													.profile img {
+														position: relative;
+														
+														margin-top: 10%;
+														border-radius: 10%;
+  width: 300px;
+  height: 500px;
+overflow: hidden;
+													  
+													}
+												
+													.profile h2 {
+													  font-size: 24px;
+													  margin-bottom: 5px;
+													}
+												
+													.profile p {
+													  font-size: 16px;
+													  color: #888;
+													  margin-bottom: 20px;
+													}
+												
+													.profile ul {
+													  list-style: none;
+													  padding: 0;
+													}
+												
+													.profile ul li {
+													  display: inline-block;
+													  margin-right: 10px;
+													}
+												
+													.profile ul li a i {
+													  font-size: 24px;
+													  color: #888;
+													}
+												
+													.profile ul li a i:hover {
+													  color: #000;
+													}
+												  </style>
+												<img src="img/owner.jpg" alt="Profile Photo">
+												<h2> Mouna Kbaier </h2>
+												<p>ATTORNEY  AT LAW</p>
+												
+											  </div>
+											</div>
 											  
 											
 											
@@ -667,7 +806,7 @@ overflow: hidden;
 							<span>nous sommes toujours à votre disposition :
 								(+216)70287140 / (+216)58.150.918</span></p>
 								<p>
-									<span> E-mail : Contact.auratransit.tn</span>
+									<span> E-mail : Contact@auratransit.tn</span>
 								</p>
 						</div>
 					</div>
