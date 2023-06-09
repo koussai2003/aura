@@ -15688,7 +15688,7 @@ p {
     }
 }
 
-.promo-slider__overlay {
+.promo-slider__overlay {    
     display: none;
     color: transparent;
     font-size: 200px;
@@ -16334,6 +16334,9 @@ p {
     -webkit-transition: color .3s;
     -o-transition: color .3s;
     transition: color .3s
+}
+.main-menu__item .main-menu__link{
+    color :#323639;
 }
 
 @media only screen and (min-width:1366px) {
