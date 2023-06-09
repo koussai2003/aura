@@ -9368,16 +9368,21 @@ section.section {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 61, 144, .9)), color-stop(50%, rgba(0, 153, 125, .6)), to(rgba(0, 0, 0, .15)));
-    background-image: -o-linear-gradient(left, rgba(0, 61, 144, .9) 0, rgba(0, 153, 125, .6) 50%, rgba(0, 0, 0, .15) 100%);
-    background-image: linear-gradient(to right, rgba(0, 61, 144, .9) 0, rgba(0, 153, 125, .6) 50%, rgba(0, 0, 0, .15) 100%)
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 61, 144, .9)), color-stop(50%, rgba(0,0,0,0)
+), to(rgba(0, 0, 0, .15)));
+    background-image: -o-linear-gradient(left, rgba(0, 61, 144, .9) 0, rgba(0,0,0,0)
+ 50%, rgba(0, 0, 0, .15) 100%);
+    background-image: linear-gradient(to right, rgba(0, 61, 144, .9) 0, rgba(0,0,0,0)
+ 50%, rgba(0, 0, 0, .15) 100%)
 }
 
 @media only screen and (min-width:1200px) {
     .hero-block__layout {
         background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 61, 144, .9)), color-stop(50%, #f19532), color-stop(60%, rgba(0, 0, 0, .15)));
-        background-image: -o-linear-gradient(left, rgba(0, 61, 144, .9) 0, rgba(0, 153, 125, .6) 50%, rgba(0, 0, 0, .15) 60%);
-        background-image: linear-gradient(to right, rgba(0, 61, 144, .9) 0, rgba(0, 153, 125, .6) 50%, rgba(0, 0, 0, .15) 60%)
+        background-image: -o-linear-gradient(left, rgba(0, 61, 144, .9) 0, rgba(0,0,0,0)
+ 50%, rgba(0, 0, 0, .15) 60%);
+        background-image: blue
+
     }
 }
 
@@ -12416,16 +12421,21 @@ form.tracking-form {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 61, 144, .9)), color-stop(50%, rgba(0, 153, 125, .6)), to(rgba(0, 0, 0, .15)));
-    background-image: -o-linear-gradient(left, rgba(0, 61, 144, .9) 0, rgba(0, 153, 125, .6) 50%, rgba(0, 0, 0, .15) 100%);
-    background-image: linear-gradient(to right, rgba(0, 61, 144, .9) 0, rgba(0, 153, 125, .6) 50%, rgba(0, 0, 0, .15) 100%)
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 61, 144, .9)), color-stop(50%, rgba(0,0,0,0)
+), to(rgba(0, 0, 0, .15)));
+    background-image: -o-linear-gradient(left, rgba(0, 61, 144, .9) 0, rgba(0,0,0,0)
+ 50%, rgba(0, 0, 0, .15) 100%);
+    background-image: linear-gradient(to right, rgba(0, 61, 144, .9) 0, rgba(0,0,0,0)
+ 50%, rgba(0, 0, 0, .15) 100%)
 }
 
 @media only screen and (min-width:1200px) {
     .front-promo__layout {
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 61, 144, .9)), color-stop(50%, rgba(0, 153, 125, .6)), color-stop(60%, rgba(0, 0, 0, .15)));
-        background-image: -o-linear-gradient(left, rgba(0, 61, 144, .9) 0, rgba(0, 153, 125, .6) 50%, rgba(0, 0, 0, .15) 60%);
-        background-image: linear-gradient(to right, rgba(0, 61, 144, .9) 0, rgba(0, 153, 125, .6) 50%, rgba(0, 0, 0, .15) 60%)
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 61, 144, .9)), color-stop(50%, rgba(0,0,0,0)
+), color-stop(60%, rgba(0, 0, 0, .15)));
+        background-image: -o-linear-gradient(left, rgba(0, 61, 144, .9) 0, rgba(0,0,0,0)
+ 50%, rgba(0, 0, 0, .15) 60%);
+        background-image: linear-gradient(to right, rgba(0, 61, 144, .9) 0, rgba(240,151,47,255) 50%, rgba(0, 0, 0, .15) 60%)
     }
 }
 
@@ -13293,12 +13303,12 @@ form.tracking-form {
 
 ::-moz-selection {
     color: #414a53;
-    background-color: #99d6cb
+    background-color: #f0972f
 }
 
 ::selection {
     color: #414a53;
-    background-color: #99d6cb
+    background-color: #f0972f
 }
 
 img {
@@ -15655,17 +15665,23 @@ p {
 }
 
 .promo-slider__layout {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 61, 144, .9)), color-stop(50%, rgba(0, 153, 125, .6)), to(rgba(0, 0, 0, .15)));
-    background-image: -o-linear-gradient(left, rgba(0, 61, 144, .9) 0, rgba(0, 153, 125, .6) 50%, rgba(0, 0, 0, .15) 100%);
-    background-image: linear-gradient(to right, rgba(0, 61, 144, .9) 0, rgba(0, 153, 125, .6) 50%, rgba(0, 0, 0, .15) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 61, 144, .9)), color-stop(50%, rgba(0,0,0,0)
+), to(rgba(0, 0, 0, .15)));
+    background-image: -o-linear-gradient(left, rgba(0, 61, 144, .9) 0, rgba(0,0,0,0)
+ 50%, rgba(0, 0, 0, .15) 100%);
+    background-image: linear-gradient(to right, rgba(0, 61, 144, .9) 0, rgba(0,0,0,0)
+ 50%, rgba(0, 0, 0, .15) 100%);
     opacity: .6
 }
 
 @media only screen and (min-width:1200px) {
     .promo-slider__layout {
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 61, 144, .9)), color-stop(50%, rgba(0, 153, 125, .6)), color-stop(60%, rgba(0, 0, 0, .15)));
-        background-image: -o-linear-gradient(left, rgba(0, 61, 144, .9) 0, rgba(0, 153, 125, .6) 50%, rgba(0, 0, 0, .15) 60%);
-        background-image: linear-gradient(to right, rgba(0, 61, 144, .9) 0, rgba(0, 153, 125, .6) 50%, rgba(0, 0, 0, .15) 60%)
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 61, 144, .9)), color-stop(50%, rgba(0,0,0,0)
+), color-stop(60%, rgba(0, 0, 0, .15)));
+        background-image: -o-linear-gradient(left, rgba(0, 61, 144, .9) 0, rgba(0,0,0,0)
+ 50%, rgba(0, 0, 0, .15) 60%);
+        background-image: blue
+
     }
 }
 
