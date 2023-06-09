@@ -9378,7 +9378,7 @@ section.section {
 
 @media only screen and (min-width:1200px) {
     .hero-block__layout {
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 61, 144, .9)), color-stop(50%, #f19532), color-stop(60%, rgba(0, 0, 0, .15)));
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 61, 144, .9)), color-stop(50%, ), color-stop(60%, rgba(0, 0, 0, .15)));
         background-image: -o-linear-gradient(left, rgba(0, 61, 144, .9) 0, rgba(0,0,0,0)
  50%, rgba(0, 0, 0, .15) 60%);
         background-image: blue
@@ -12903,7 +12903,8 @@ form.tracking-form {
 }
 
 .intro-header.page-header--fixed .logo--white {
-    display: none
+    display: flex;
+    align-items: center;
 }
 
 .intro-header.page-header--fixed .logo--dark {
@@ -15125,7 +15126,8 @@ p {
 }
 
 .page-header_2.page-header--fixed .logo--white {
-    display: none
+    display: flex;
+    align-items: center;
 }
 
 .page-header_2.page-header--fixed .logo--dark {
@@ -15212,7 +15214,8 @@ p {
 }
 
 .page-header_3.page-header--fixed .logo--white {
-    display: none
+    display: flex;
+    align-items: center;
 }
 
 .page-header_3.page-header--fixed .logo--dark {
@@ -15696,7 +15699,7 @@ p {
     -webkit-text-stroke-color: rgba(255, 255, 255, .35);
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 1;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
