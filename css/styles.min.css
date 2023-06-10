@@ -16335,9 +16335,6 @@ p {
     -o-transition: color .3s;
     transition: color .3s
 }
-.main-menu__item .main-menu__link{
-    color :#323639;
-}
 
 @media only screen and (min-width:1366px) {
     .main-menu__item .main-menu__link {
