@@ -48,40 +48,7 @@ body {
 [tabindex="-1"]:focus {
     outline: 0 !important
 }
-.btn {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    border-radius: 5px;
-    font-family: 'montserrat';
-    padding: 15px 25px;
-    transition: 0.5s; }
-    .btn.trns-btn, .btn.btn-trans {
-      color: var(--primary);
-      border: 1px solid var(--primary); }
-      .btn.trns-btn:hover, .btn.btn-trans:hover {
-        background: var(--primary);
-        color: #fff; }
-    .btn.trns-btn-w, .btn.btn-trans-w {
-      border: 1px solid #fff;
-      color: #fff; }
-      .btn.trns-btn-w:hover, .btn.btn-trans-w:hover {
-        background: #fff;
-        color: var(--primary); }
-    .btn.solid-btn, .btn.btn-solid {
-      background: var(--primary);
-      color: #fff; }
-      .btn.solid-btn:hover, .btn.btn-solid:hover {
-        background: #000;
-        color: #fff;
-        border: 1px solid #000; }
-    .btn.btn-center {
-      display: block;
-      margin: 0 auto;
-      margin-top: 40px;
-      padding-left: 10px;
-      padding-right: 10px;
-      width: 180px; }
+
 hr {
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
