@@ -73,6 +73,78 @@ showNextSlide();
 		</script>
 	</head>
 	<body>
+		<style>.dropbtn {
+			background-color: #3498DB;
+			color: white;
+			padding: 16px;
+			font-size: 16px;
+			border: none;
+		  }
+		  
+		  .dropup {
+			position: relative;
+			display: inline-block;
+		  }
+		  
+		  .dropup-content {
+			display: none;
+			position: absolute;
+			background-color: #f1f1f1;
+			min-width: 160px;
+			bottom: 50px;
+			z-index: 1;
+		  }
+		  
+		  .dropup-content a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		  }
+		  
+		  .dropup-content a:hover {background-color: #ccc}
+		  
+		  .dropup:hover .dropup-content {
+			display: block;
+		  }
+		  
+		  .dropup:hover .dropbtn {
+			background-color: #2980B9;
+		  }</style>
+		<div
+            class="dropup"
+            style="position: fixed; z-index: 999999; right: 2%; bottom: 0"
+        >
+            <button
+                class="dropbtn"
+                type="button"
+                data-toggle="dropdown"
+            >
+                <img src="img/fr.png" alt="francais" />
+                Français
+                <span class="caret"></span>
+            </button>
+            <div class="dropup-content">
+                
+                    <a href="index-eng.html"
+                        ><img
+                            src="img/gbr.png"
+                            alt="English"
+                        />
+                        English</a
+                    >
+                
+                
+                    <a href="index-deu.html"
+                        ><img
+                            src="img/de.png"
+                            alt="Deutsch"
+                        />
+                        Deutsch</a
+                    >
+                
+            </div>
+        </div>
 		<div class="page-wrapper">
 			<!-- menu dropdown start-->
 			<div class="menu-dropdown">
@@ -186,7 +258,7 @@ showNextSlide();
 								<div class="hamburger-inner"></div>
 							</div>
 							<div class="page-header__logo logo--white"><a href="index.html"><img src="img/auralogo.png" alt="logo" style="width:auto ;height: auto;"/></a></div>
-							<label style="font-size:20px;white-space: nowrap;color:#fff;font-weight: 800;">la seule qui vous ira</label>
+							<label style="font-size:20px;white-space: nowrap;color:white;font-weight: 800;">la seule qui vous ira</label>
 							<div class="page-header__logo logo--dark"></div>
 							
 						</div>
@@ -221,13 +293,11 @@ showNextSlide();
 									<!-- sub menu end-->
 								</li>
 							</ul>
+							
 							<!-- main menu end-->
 						</div>
 						<div class="col-4 col-md-6 col-lg-4 d-flex justify-content-end align-items-center">
-							<div class="lang-block">
-								
-								<!-- lang select end-->
-							</div>
+							
 							<!-- menu-trigger start-->
 							<div class="hamburger d-inline-block d-md-none hamburger--white">
 								<div class="hamburger-inner"></div>
