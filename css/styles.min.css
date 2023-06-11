@@ -71,6 +71,7 @@ p {
     margin-bottom: 1rem
 }
 
+
 abbr[data-original-title],
 abbr[title] {
     text-decoration: underline;
@@ -14684,6 +14685,7 @@ p {
 @media only screen and (min-width:768px) {
     .page-header__logo {
         margin-left: 30px;
+        
     }
 }
 
@@ -14697,6 +14699,7 @@ p {
 .page-header__logo a,
 .page-header__logo img {
     display: inline-block;
+    width: 200px;
 }
 
 .page-header__logo img {
@@ -14705,7 +14708,7 @@ p {
 }
 
 @media only screen and (min-width:1200px) {
-    .page-header__logo img {
+    .page-header__logo--white img {
         height: 90px
     }
     .page-header__logo label {
