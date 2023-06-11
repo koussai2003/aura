@@ -14694,7 +14694,11 @@ p {
         margin-left: 50px
     }
 }
-
+@media only screen and (max-width:768px) {
+    .page-header__logo a{    
+        width: 100px!important;
+        }
+}
 .page-header__logo,
 .page-header__logo a,
 .page-header__logo img {
@@ -14703,7 +14707,7 @@ p {
 }
 
 .page-header__logo img {
-    height: 90px;
+    
     max-width: auto
 }
 
